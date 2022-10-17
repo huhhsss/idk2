@@ -1,0 +1,231 @@
+import math
+
+
+def szescian():
+    a = float(input("bok: "))
+
+    print(f"pole sześcianu jest równe {a**3}")
+
+
+def kula():
+    a = math.pi
+    b = float(input("promień: "))
+    print(f"objętość kuli jest równa {4/3*a*b**3}")
+
+
+def ostrosłup():
+    a = float(input())
+    b = float(input())
+    c = float(input())
+
+    print(f"objętość ostrosłupa jest równa {1/3*a*b*c}")
+
+
+def stożek():
+    a = math.pi
+    b = float(input())
+    c = float(input())
+    print(f"objętość stożka jest równa {1/3*a*b**2*c}")
+
+
+def walec():
+    a = math.pi
+    b = float(input("promień: "))
+    c = float(input("wysokość: "))
+
+    print(f"objętość walca jest równa {a*b**2*c}")
+
+
+def graniastosłup():
+    a = float(input("pole podstawy: "))
+    b = float(input("wysokość"))
+
+    print(f"objętość graniastosłupa jest równa {a*b}")
+
+
+def prostopadłościan():
+    a = float(input("pierwszy bok podstawy: "))
+    b = float(input("drugi bok podstawy: "))
+    c = float(input("wysokość:"))
+
+    print(f"objętość prostopadłościanu jest równa {a*b*c}")
+
+
+def kanciaste_serce():
+    a = float(input("bok serca: "))
+    b = float(input("góra serca: "))
+    c = float(input("wysokość: "))
+
+    print(f"kanciaste serce ma {a*b*c+1/2*a*b*c}")
+
+
+def kredka():
+    a = float(input("bok podstawy: "))
+    b = float(input("wysokość całkowita: "))
+    c = float(input("wysokość ściany bocznej: "))
+
+    print(f"objętość kredki wynosi {a*a*c+1/3*a*a*(b-c)}")
+
+
+def pół_kula():
+    a = math.pi
+    b = float(input("promień: "))
+    print(f"objętość połowy kuli jest równa {(4/3*a*b**3)*1/2}")
+
+
+def lizak():
+    a = math.pi
+    b = float(input("promień lizaka: "))
+    c = 1/3*b
+
+    print(f"objętość lizaka jest równa {4/3*a*b**3+c*c*3*b}")
+
+
+def kwaitek():
+    a = math.pi
+    b = float(input("promień płatka: "))
+    c = float(input("promień środka: "))
+
+    print(f"objętość kwiatka jest równa {4/3*a*c**3+5*(4/3*a*b**3)+3*c}")
+
+
+def grzyb():
+    a = math.pi
+    b = float(input("promień podstawy grzyba: "))
+    c = float(input("wysokość nogi grzyba"))
+    d = float(input("promień kapelusza:"))
+
+    print(f"objętośc grzyba wynosi {a*b**3*c+(4/3*a*d**3)*1/2}")
+
+
+def schodki():
+    a = float(input("wysokość od ziemi pierwszego schodka: "))
+    b = float(input("wysokość od ziemi drugiego schodka: "))
+    c = float(input("szerokość schodka: "))
+    d = float(input("długość schodka: "))
+
+    print(f"objętość schodków jest równa {a*c*d+b*c*d}")
+
+
+def krasnal():
+    a = math.pi
+    b = float(input("szerokość tłowia: "))
+    c = float(input("długość tłowia: "))
+    d = float(input("wysokość tłowia: "))
+    e = float(input("promień głowy: "))
+    f = float(input("promień nosa: "))
+    g = float(input("długość nosa: "))
+    h = float(input("promień czapki"))
+    i = float(input("wysokość czapki: "))
+    j = float(input("promień oczu: "))
+
+    print(f"objętość krasnala jest równa {(b*c*d)+(4/3*a*e**3)+(a*f**2*g)+(1/3*a*h**2*i)+(a*j**2*1)}")
+
+
+def słońce():
+    a = math.pi
+    b = float(input("promień słońca: "))
+    c = float(input("szerokość słońca: "))
+    d = float(input("długość promienia: "))
+    e = float(input("szerokość promienia: "))
+    f = float(input("wysokość promienia: "))
+
+    print(f"objętość słońca jest równa {4/3*a*b**2*c+(d*e*f)*5}")
+
+
+def pikselowy_mini_donut():
+    a = float(input("jeden bok donuta: "))
+    b = float(input("drugi bok dobuta: "))
+    c = float(input("wysokość donuta: "))
+    d = float(input("szerokość dziurki"))
+
+    print(f"objętość donuta jest równa {a*b*c-d*d}")
+
+
+def rakieta():
+    a = math.pi
+    b = float(input("szerokość kadłubu: "))
+    c = float(input("długość kadłubu: "))
+    d = float(input("wysokość kadłuba: "))
+    e = float(input("promień silnika: "))
+
+    print(f"objętość rakiety jest równa {b*c*d+(4/3*a*e**3)*2}")
+
+
+def kaczka():
+    a = math.pi
+    b = float(input("promień tłowia kaczki: "))
+    c = float(input("promień głowy kaczki: "))
+    d = float(input("szerokość kaczki: "))
+
+    print(f"objętość kaczki jest równa {(a*b**2*d)*1/2+(a*c**2*d)*1/2}")
+
+
+def ufo():
+    a = math.pi
+    b = float(input("promień szyby: "))
+    c = float(input("promień dołu ufo: "))
+    d = float(input("wysokość dołu ufo: "))
+
+    print(f"objętość ufo jest równa{a*c**2*d+(4/3*a*b**3)*1/2}")
+
+
+
+
+
+
+
+
+
+
+
+print("1 = sześcian; 2 = kula; 3 = ostrosłup; 4 = stożek; 5 = walec; 6 = graniastosłup, 7 = prostopadłościan; 8 = kancaiste serce; 9 = kredka; 10 = półkula; 11 = lizak; 12 = kwiatek; 13 = grzyb; 14 = schodki; 15 = krasnal; 16 = słońce; 17 = pikselowy mini donut; 18 = rakieta; 19 = kaczka; 20 = ufo")
+q = int(input("podaj liczbę"))
+
+def kalkulator():
+    if q == 1:
+        szescian()
+    elif q == 2:
+        kula()
+    elif q == 3:
+        ostrosłup()
+    elif q == 4:
+        stożek()
+    elif q == 5:
+        walec()
+    elif q == 6:
+        graniastosłup()
+    elif q == 7:
+        prostopadłościan()
+    elif q == 8:
+        kanciaste_serce()
+    elif q == 9:
+        kredka()
+    elif q == 10:
+        pół_kula()
+    elif q == 11:
+        lizak()
+    elif q == 12:
+        kwaitek()
+    elif q == 13:
+        grzyb()
+    elif q == 14:
+        schodki()
+    elif q == 15:
+        krasnal()
+    elif q == 16:
+        słońce()
+    elif q == 17:
+        pikselowy_mini_donut()
+    elif q == 18:
+        rakieta()
+    elif q == 19:
+        kaczka()
+    elif q == 20:
+        ufo()
+    else:
+        print("nieprawidłowe dane")
+
+kalkulator()
+
+
